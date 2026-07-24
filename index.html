@@ -31,7 +31,7 @@
 						<nav>
 							<ul>
 								<li><a href="#about-me">About Me</a></li>
-								<li><a href="images/DeSoto_Resume26.pdf" target="_blank">Resume</a></li>
+								<li><a href="images/DeSoto_Resume26.pdf"target="_blank">Resume</a></li>
 								<li><a href="#Experience">Experience</a></li>
 								<li><a href="#Contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -56,13 +56,19 @@
               </article>
               
               <!-- About -->
-							<article id="Experience">
+							<article id="Expereince">
 								<h2 class="major">Experience</h2>
 								<span class="image main"><img src="images/stars1.jpg" alt="" /></span>
-								<p>As a research assistant I authored and contributed to several peer-reviewed publications as well as presented original work at multiple conference over the years.</p> 
-                <p>You can find my publications <a href="https://scixplorer.org/search?p=1&q=+author%3A%22DeSoto%2C+Sabrina%22&sort=score+desc&sort=date+desc&d=general">online HERE</a> </p>
-                <p>The bulk of my programming experience thus far - including computational analysis, data visualization and modeling - has been in python and Fortran. </p>
-                <p>You can find some of my scripts on my <a href="https://github.com/sablol"target="_blank">GitHub HERE</a></p>
+								<p> I have authored and contributed to several peer-reviewed publications as well as presented original work at multiple conference over the years. My research focus has been on understanding the complex physics of distant exploding stars known as Supernovae (SNe) via multi-telescope observational campaigns and advanced computational models.</p> 
+                <p>You can find my publications <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22DeSoto%2C%20Sabrina%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"target="_blank">online HERE</a> </p>
+                <p> From this work I have extensive experience developing scientific software in <b> Python </b> and <b> Fortran </b>. </p>
+                <p> Using Python I have developed reusable modules and data-processing pipelines for ingesting, cleaning, transforming, and analyzing large observational and simulated datasets using packages such as NumPy, SciPy, Astropy and Pandas. I have implemented numerical algorithms for uncertainty propagation, statistical weighting, coordinate and velocity transformations, model fitting, and data filtering. I have also built custom Matplotlib visualization tools to create publication quality figures with multi-panel plots, error visualization and custom color mapping. </p>
+                <p> I also am adept in developing, maintaining and running large modular <b>scientific software</b>, having worked with multiple complex astrophysics computational models of Supernovae: </p>
+                <p> (1)	SLIP - a Monte Carlo radiative-transfer model designed to simulate the optical properties produced when the light from a SN interacts with surrounding material (circumstellar environment- CSM). Applied physics: scattering regimes, polarization, spectral emission and absorption. More details can be found <a href="https://www.grammai.org/jhoffman/slip/"target="_blank"> online HERE</a> </p>
+                <p> (2)	FLASH-X – a hydrodynamic model capable of simulating the complex fluid interactions and resulting nuclear reactions of high-energy SN explosions. Applied physics: thermodynamics, equation of state (EOS) for compressible and incompressible fluids, relativistic and degenerate particles. More details can be found here: <a href="https://iopscience.iop.org/article/10.1086/317361” target="_blank"> Fryxell et al. 2000 </a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167819109000945?via%3Dihub” target="_blank"> Dubey et al. 2009</a></p>
+                <p> Both SLIP and FLASH-X are massively parallel scientific software systems developed over the years through multi-user code collaboration. I expanded model capabilities in both of them by implemented new physics describing observationally constrained environments. I prototyped analytical expressions in Python to validate each environment before implementing them in the software source-code written in Fortran. I used GitHub for version control throughout the development process, to ensure long-term software fidelity. </p>
+                <p> I executed numerous simulations for each using <b>high-performance computing (HPC)</b> resources, MPI/OpenMP parallelization and Slurm batch workflows on supercomputer clusters. I then developed custom analysis pipelines to process and interpret the resulting large-scale simulation datasets stored on the clusters.</p>
+                <p>You can find some of my projects on my <a href="https://github.com/sablol"target="_blank">GitHub HERE</a></p>
                 </article>
 
 						<!-- Contact -->
